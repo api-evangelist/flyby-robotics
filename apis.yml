@@ -1,8 +1,30 @@
 aid: flyby-robotics
 name: Flyby Robotics
-description: Flyby Robotics is a company surfaced as a portfolio company of anthemis and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Flyby Robotics is an American manufacturer of open-architecture, NDAA-compliant
+  medium-lift drones built as a platform for physical and edge AI. Its F-11 series
+  (F-11T, F-11S, F-11H) pairs onboard NVIDIA Jetson Orin NX GPU compute (up to 314
+  TOPS) and an open ArduPilot/CubePilot flight controller with a developer-facing
+  C++ SDK, so engineers can register custom payloads, stream video over GStreamer,
+  and programmatically control the aircraft. The company ships the Flyby SDK
+  (flyby-sdk-release) through GitHub and documents it at docs.flybydev.com, targeting
+  ISR, photogrammetry, public-safety, research, and drone-delivery use cases. Flyby
+  Robotics raised a $4M pre-seed backed by investors including MaC Venture Capital,
+  Gaingels, and Anthemis Group. This profile captures Flyby's developer surface as it
+  exists today: an on-board SDK and docs rather than a hosted REST API.
 url: https://raw.githubusercontent.com/api-evangelist/flyby-robotics/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.flybyrobotics.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +33,50 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Drones
+- Robotics
+- Physical AI
+- Edge AI
+- SDK
+- Aerial Systems
+- Hardware
+- Drone Delivery
 apis: []
+common:
+- type: Website
+  url: https://www.flybyrobotics.com/
+- type: DeveloperPortal
+  url: https://docs.flybydev.com/
+- type: Documentation
+  url: https://docs.flybydev.com/
+- type: GettingStarted
+  url: https://docs.flybydev.com/quickstart/getting-started
+- type: SDKs
+  url: https://github.com/flybydev/flyby-sdk-release
+- type: Packages
+  url: packages/flyby-robotics-packages.yml
+- type: GitHubOrganization
+  url: https://github.com/flybydev
+- type: ChangeLog
+  url: changelog/flyby-robotics-changelog.yml
+- type: LLMsTxt
+  url: llms/flyby-robotics-llms.txt
+- type: DomainSecurity
+  url: security/flyby-robotics-domain-security.yml
+- type: TermsOfService
+  url: https://www.flybyrobotics.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.flybyrobotics.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

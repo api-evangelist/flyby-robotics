@@ -1,0 +1,16 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/flybydev/flyby-sdk-release/releases
+subject: Flyby SDK (flyby-sdk-release)
+scheme: semver
+current_version: 0.3.0
+notes: >-
+  The Flyby SDK is pre-release; per the docs everything is subject to change. GitHub
+  Releases is the source of truth for the SDK version history. Only the initial public
+  release is published to date.
+entries:
+  - version: 0.3.0
+    date: '2024-08-14'
+    breaking: false
+    highlights:
+      - First public release of the Flyby SDK.

@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/flybydev/flyby-sdk-release
+notes: >-
+  Flyby ships a developer-facing C++ SDK ("Flyby SDK") for on-board payload
+  integration, GStreamer video streaming, and programmatic drone control on the
+  F-11 series. It is distributed as a CMake library via GitHub Releases, not
+  through a public language package registry (npm/PyPI/Maven/NuGet/crates.io searches
+  returned no first-party Flyby packages). Consumed by copying the example project
+  structure and CMake file per the SDK tutorial.
+packages:
+  - language: cpp
+    registry: github
+    name: flyby-sdk-release
+    url: https://github.com/flybydev/flyby-sdk-release
+    install: Download the latest release library and link via CMake (see docs.flybydev.com SDK tutorial)
+    latest_version: 0.3.0
+    official: true
