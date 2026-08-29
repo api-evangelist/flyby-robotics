@@ -13,6 +13,17 @@ description: >-
   Gaingels, and Anthemis Group. This profile captures Flyby's developer surface as it
   exists today: an on-board SDK and docs rather than a hosted REST API.
 url: https://raw.githubusercontent.com/api-evangelist/flyby-robotics/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
