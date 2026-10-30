@@ -64,6 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Flyby Robotics is a company surfaced as a portfolio company of anthemis and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Flyby Robotics is an American manufacturer of open-architecture, NDAA-compliant medium-lift drones built as a platform for physical and edge AI. Its F-11 series (F-11T, F-11S, F-11H) pairs onboard NVIDIA Jetson Orin NX GPU compute (up to 314 TOPS) and an open ArduPilot/CubePilot flight controller with a developer-facing C++ SDK, so engineers can register custom payloads, stream video over GStreamer, and programmatically control the aircraft. The company ships the Flyby SDK (flyby-sdk-release) through GitHub and documents it at docs.flybydev.com, targeting ISR, photogrammetry, public-safety, research, and drone-delivery use cases. Flyby Robotics raised a $4M pre-seed backed by investors including MaC Venture Capital, Gaingels, and Anthemis Group. This profile captures Flyby's developer surface as it exists today: an on-board SDK and docs rather than a hosted REST API.
 
-Backed by: anthemis
+**Areas:** Company · Drones · Robotics · Physical AI · Edge AI · SDK · Aerial Systems · Hardware · Drone Delivery
+
+## Flyby Robotics on APIs.io
+
+Everything profiled for Flyby Robotics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/flyby-robotics/](https://apis.io/providers/flyby-robotics/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Flyby Robotics Domain Security](https://apis.io/security/flyby-robotics/flyby-robotics-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.flybyrobotics.com/)
+- [Documentation](https://docs.flybydev.com/)
+- [Getting started](https://docs.flybydev.com/quickstart/getting-started)
+- [Terms of service](https://www.flybyrobotics.com/terms-of-service)
+- [Privacy policy](https://www.flybyrobotics.com/privacy-policy)
+- [GitHub](https://github.com/flybydev)
+
+## API Evangelist rating
+
+**Kin Score 19.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/flyby-robotics/](https://apis.io/providers/flyby-robotics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Flyby Robotics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/flyby-robotics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
